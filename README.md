@@ -2,9 +2,12 @@
 
 This is a setup for use the BCR2000 + Supercollider + Tidal Cycles as a mixer/looper/sampler/slicer/fast-navigation tool, the scripts can be also improved and it is a work in progress, so expect to find bugs or errors.
 
+*At this moment 9/10/2021 note patterns have still to be added asap, so the track 7 and 8 just play a single note sample right now*
+
 It also contains a very raw bash script to get random patterns of 8 chars using 9 digits (0, 1, 2, 3, 4, 5, 6, 7, ~)
 
 There is no midi channel subdivision at the moment, so its made basically for a single BRC2000 preset.
+
 
 {optional}
 - Linux is the default system used in this project
@@ -12,10 +15,12 @@ There is no midi channel subdivision at the moment, so its made basically for a 
 - Claudia/Ladish is the default patchbay - "sudo apt install claudia" 
 - Atom is the default text editor so install it: https://atom.io/ because we're going to use the default udp atom ports to translate midi to osc in order to be able to move the cursors by midi.
 
+
 {mandatory}
 - Install Tidal Cycle and Supercollider IDE http://tidalcycles.org/docs/getting-started/linux_install/
 
-- It Implements the haskell "Capply" function and supercollider edits made by 'mrreason': https://club.tidalcycles.org/t/trigger-tidal-code-with-midi/2168
+- It Implements the haskell "Capply" function and supercollider edits made by 'mrreason': https://club.tidalcycles.org/t/trigger-tidal-code-with-midi/2168 it need to be evaluated at the beginning.
+
 
 {functionalities}
 8 tracks, 8 different sound banks by default: 
