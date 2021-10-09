@@ -1,5 +1,5 @@
 /*
-This is a custom startup file. You can load it from your startup file
+This is a custom Super Collider startup file. You can load it from your startup file
 (to be found in Platform.userAppSupportDir +/+ "startup.scd")
 */
 
