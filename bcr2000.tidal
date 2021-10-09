@@ -2,20 +2,20 @@
 
 -- actual script bcr2000
 
--- 1 "jungle_breaks",
--- 2 "jungle_breaks2",
--- 3 "TOTAL_SCIENCE_drum_loops",
--- 4 "VEC1_BreakBeats",
--- 5 "TOTAL_SCIENCE_percussion_loops",
--- 6 "jungle_bass",
--- 7 "jungle_fx",
--- 8 "jungle_vocals"]
+-- define below your banks as reminder
+-- 1 "",
+-- 2 "",
+-- 3 "",
+-- 4 "",
+-- 5 "",
+-- 6 "",
+-- 7 "",
+-- 8 ""]
 
 
 do
   setcps (155/60/4)
   resetCycles;
-      -- bank = "jungle_breaks"
   d1
     $ stack [
       capply1'' (cI 1 "9") pvector1
@@ -79,6 +79,7 @@ do
       # gain 1
     ]
   print "its on - live bcr2000 hi-fi sampler"
+  -- add more midi ext tracks if you want:  
   -- d9 $ stack [
       -- n ("c3*4")  # s "midi" # midichan 0
     -- ]
