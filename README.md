@@ -10,20 +10,20 @@ It also contains a very raw bash script to get random patterns of 8 chars using 
 There is no midi channel subdivision at the moment, so its made basically for a single BRC2000 preset.
 
 
-{optional}
+# {optional}
 - Linux is the default system used in this project
 - Kxstudio repos are involved for the base audio environment of this project - https://kx.studio/Repositories
 - Claudia/Ladish is the default patchbay - "sudo apt install claudia" 
 - Atom is the default text editor so install it: https://atom.io/ because we're going to use the default udp atom ports to translate midi to osc in order to be able to move the cursors by midi.
 
 
-{mandatory}
+# {mandatory}
 - Install Tidal Cycle and Supercollider IDE http://tidalcycles.org/docs/getting-started/linux_install/
 
 - It Implements the haskell "Capply" function and supercollider edits made by 'mrreason': https://club.tidalcycles.org/t/trigger-tidal-code-with-midi/2168 it need to be evaluated at the beginning.
 
 
-{functionalities}
+# {functionalities}
 # 8 tracks, 8 different sound banks by default: 
 - 6 sliced loop tracks and  
 - 2 single sample tracks
