@@ -18,6 +18,8 @@ There is no midi channel subdivision at the moment, so its made basically for a 
 
 
 # {mandatory}
+- wine + brc2000 manager https://mountainutilities.eu/downloads 
+
 - Install Tidal Cycle and Supercollider IDE http://tidalcycles.org/docs/getting-started/linux_install/
 
 - It Implements the haskell "Capply" function and supercollider edits made by 'mrreason': https://club.tidalcycles.org/t/trigger-tidal-code-with-midi/2168 it need to be evaluated at the beginning.
