@@ -36,6 +36,6 @@ There is no midi channel subdivision at the moment, so its made basically for a 
 
 Its easy peasy to route the supercollider/sclang output channels into any sequencer (i mostly use reaper or ableton) and record the stream.
 
-Easy peasy change the cc number of the controls as you need
+Easy peasy change the cc number of the controls as you need or add new ones
 
 Other cc controls can be added to the BCR2000 as at this state of the script we're not going to use all the BCR2000 potential 
