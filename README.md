@@ -12,7 +12,7 @@ There is no channel subdivision at the moment, so its made basically for a singl
 - Claudia/Ladish is the default patchbay - "sudo apt install claudia" 
 - Atom is the default text editor so install it: https://atom.io/ because we're going to use the default udp atom ports to translate midi to osc in order to be able to move the cursors by midi.
 
-- It Implements the haskell "Capply" function and supercollider edits made by: https://club.tidalcycles.org/t/trigger-tidal-code-with-midi/2168
+- It Implements the haskell "Capply" function and supercollider edits made by 'mrreason': https://club.tidalcycles.org/t/trigger-tidal-code-with-midi/2168
 
 8 tracks, 8 different sound banks by default: 
 - 6 sliced loop tracks and  
