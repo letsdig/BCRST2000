@@ -1,6 +1,6 @@
 # BCRST2000
 
-This is a setup for use the BCR2000 + Supercollider + Tidal Cycles as a mixer/sampler/slicer/fast-navigation tool, the scripts can be also improved.
+This is a setup for use the BCR2000 + Supercollider + Tidal Cycles as a mixer/looper/sampler/slicer/fast-navigation tool, the scripts can be also improved.
 
 It also contains a very raw bash script to get random patterns of 8 chars using 9 digits (0, 1, 2, 3, 4, 5, 6, 7, ~)
 
