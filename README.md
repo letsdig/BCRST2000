@@ -4,7 +4,7 @@ This is a setup for use the BCR2000 + Supercollider + Tidal Cycles as a mixer/lo
 
 It also contains a very raw bash script to get random patterns of 8 chars using 9 digits (0, 1, 2, 3, 4, 5, 6, 7, ~)
 
-There is no channel subdivision at the moment, so its made basically for a single BRC2000 preset.
+There is no midi channel subdivision at the moment, so its made basically for a single BRC2000 preset.
 
 {optional}
 - Linux is the default system used in this project
