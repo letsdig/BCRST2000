@@ -36,9 +36,9 @@ There is no midi channel subdivision at the moment, so its made basically for a 
 - hush - stop
 
 
-- Supercollider script contains MIDI code for: mute, solo, editor evaluate and move, these controls refers to the basic Tidal Cycle Patterns: (d1, d2... and so on), and Atom osc control (evaluate, move) 
+- Supercollider script contains MIDI code for: hush, mute, solo, editor evaluate and move, these controls refers to the basic Tidal Cycle Patterns: (d1, d2... and so on), and Atom osc control (evaluate, move) 
  
-- Tidal Cycles scripts contains MIDI code for: speed, change sample/loop, change midi/note pattern   
+- Tidal Cycles scripts contains MIDI code for: speed, change sample/loop, change midi/note pattern, also here you can add more and more controls easily  
 
 Its easy peasy to route the supercollider/sclang output channels into any sequencer (i mostly use reaper or ableton) and record the stream.
 
