@@ -22,7 +22,8 @@ There is no channel subdivision at the moment, so its made basically for a singl
 - speed
 - fast change control/notes patterns by knob - 128 patterns per track
 - fast change sample/loop by knob - 128 loops/samples per track - 8 bar loops slice as default but it can be changed in the code for long loops bar folders
-- evaluate atom block code or single row and move in the editor by midi
+- evaluate atom block code or single row and move in the editor by midi - play
+- hush - stop
 
 - Supercollider script contains MIDI code for: mute, solo, editor evaluate and move, these controls refers to the basic Tidal Cycle Patterns: (d1, d2... and so on), and Atom osc control (evaluate, move) 
  
