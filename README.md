@@ -14,7 +14,7 @@ There is no channel subdivision at the moment, so its made basically for a singl
 
 - It Implements the haskell "Capply" function and supercollider edits made by: https://club.tidalcycles.org/t/trigger-tidal-code-with-midi/2168
 
-8 tracks, by default: 
+8 tracks, 8 different sound banks by default: 
 - 6 sliced loop tracks and  
 - 2 single sample tracks
 - mute
