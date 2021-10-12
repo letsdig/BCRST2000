@@ -14,7 +14,7 @@ This setup is also suitable for any other device so its not strictly reserved to
 - Linux is the default system used in this project
 - Kxstudio repos are involved for the base audio environment of this project - https://kx.studio/Repositories
 - Claudia/Ladish is the default patchbay - "sudo apt install claudia" 
-- Atom is the default text editor so install it: https://atom.io/ because we're going to use the default udp atom ports to translate midi to osc in order to be able to move the cursors by midi.
+- Atom is the default text editor so install it: https://atom.io/ because we're going to use the default udp atom ports to receive the translated midi/osc in order to be able to move the cursors by midi.
 
 
 
