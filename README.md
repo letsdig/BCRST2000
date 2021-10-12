@@ -24,8 +24,11 @@ There is no midi channel subdivision at the moment, so its made basically for a 
 
 # {functionalities}
 # 8 tracks, 8 different sound banks by default: 
-- 6 sliced loop tracks and  
-- 2 single sample tracks
+- 6 ready to go loops tracks
+- 2 ready to go samples tracks
+- change bank
+- change patterns
+- change sample/loops
 - mute
 - solo
 - speed
