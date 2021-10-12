@@ -84,7 +84,7 @@ do
       -- # unit "c"
       # gain 1
     ]
-  print "its on - control from bcr2000"
+  print "ON AIR - midi-osc control from bcr2000"
   - add more if you need or change the patterns above
   -- d9 $ stack [
       -- n ("c3*4")  # s "midi" # midichan 0
