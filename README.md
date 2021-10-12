@@ -37,9 +37,9 @@ This setup is useful if one have a lot of folders full of loops or samples (128 
 - evaluate atom code blocks or a single row and move in the editor, all by midi - play
 - hush - stop
 
-- Supercollider script contains MIDI code for: hush, mute, solo, editor evaluate and move, these controls refers to the basic Tidal Cycle Patterns: (d1, d2... and so on), and Atom osc control (evaluate, move). It also contains the code for a visual clock. 
+- Supercollider script contains code and midi cc variables for: hush, mute, solo, editor evaluate and move, these controls refers to the basic Tidal Cycle Patterns: (d1, d2... and so on), and Atom osc control (evaluate, move). It also contains the code for a visual clock. 
  
-- Tidal Cycles scripts contains MIDI code for: speed, change sample/loop, change midi/note pattern, also here you can add more and more controls easily  
+- Tidal Cycles scripts contains code and midi cc variables for: speed, change sample/loop, change midi/note pattern, also here you can add more and more controls easily  
 
 Its easy peasy to route the supercollider/sclang output channels into any sequencer (i mostly use reaper or ableton) and record the stream.
 
