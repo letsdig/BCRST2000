@@ -1,9 +1,11 @@
 /*
-This is a custom Super Collider startup file. You can load it from your startup file
+This is an example startup file. You can load it from your startup file
 (to be found in Platform.userAppSupportDir +/+ "startup.scd")
 */
 
 (
+var clockMods, clockBeats, screenW, screenH, clockW, clockH, clockX, clockY, resizable, border;
+
 
 var on, off, cc;
 var mutes, solos, muteAll, unmuteAll, unsoloAll, hush;
@@ -25,11 +27,11 @@ s.reboot { // server options are only updated on reboot
     s.waitForBoot {
         ~dirt = SuperDirt(2, s); // two output channels, increase if you want to pan across more channels
         //~dirt.loadSoundFiles;   // load samples (path containing a wildcard can be passed in)
-		    ~dirt.loadSoundFiles("/yoursamplesfolderpath/*"); // specify sample folder to load
+		~dirt.loadSoundFiles("/home/kp-power/Scrivania/TidalCycle/Dirt-Samples/*"); // specify sample folder to load
 
         // for example: ~dirt.loadSoundFiles("/Users/myUserName/Dirt/samples/*");
         // s.sync; // optionally: wait for samples to be read
-        ~dirt.start(57120, [0, 2, 4, 6, 8, 10, 12, 14]);   // 8 stereo outputs
+        ~dirt.start(57120, [0, 2, 4, 6, 8, 10, 12, 14]);   // start listening on port 57120, create two busses each sending audio to channel 0
 
         // optional, needed for convenient access from sclang:
         (
@@ -59,7 +61,7 @@ mutes = Dictionary[
     65 -> 1,
     66 -> 2,
     67 -> 3,
-    68 -> 4,
+	68 -> 4,
     69 -> 5,
     70 -> 6,
     71 -> 7,
@@ -98,7 +100,7 @@ hush = 108;
 
 playbackState = Dictionary[];
 
-osc1 = NetAddr.new("127.0.0.1", 3333);
+			osc1 = NetAddr.new("127.0.0.1", 3333);
 
 osc = NetAddr.new("127.0.0.1", 6010);
 
@@ -218,6 +220,7 @@ if (~stopMidiMuteControl != nil, {
 ~stopMidiMuteControl = {
     playbackControl.free;
 };
+
 
 /* clock */
 
