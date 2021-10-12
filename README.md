@@ -34,8 +34,6 @@ This setup is also suitable for any other device so its not strictly reserved to
 - mute
 - solo
 - speed
-- fast change control/notes patterns by knob - 128 patterns per track
-- fast change sample/loop by knob - 128 loops/samples per track - 8 bar loops slice as default but it can be changed in the code for long loops bar folders (also in the boot.tidal you will find the 3rd and 5th track with a 64 slice, in that case also the speed value in the bcr2000.tidal has to be changed accordingly) 
 - evaluate atom block code or single row and move in the editor by midi - play
 - hush - stop
 
