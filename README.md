@@ -2,6 +2,8 @@
 
 This is a basic setup/repository for use the BCR2000 + SuperCollider 3.11.2 + Tidal Cycles as a mixer/looper/sampler/slicer/fast-navigation tool, the scripts can be also improved and it is a work in progress, so expect to find bugs or errors.
 
+It contains basically a tidal cycle script and a supercollider startup file.
+
 It also contains a very raw bash script to get random patterns of 8 chars using 9 digits (0, 1, 2, 3, 4, 5, 6, 7, ~)
 
 There is no midi channel subdivision at the moment, so its made basically for a single midi chan BRC2000 preset.
