@@ -4,7 +4,7 @@ This is a basic setup/repository for use the BCR2000 + SuperCollider 3.11.2 + Ti
 
 It also contains a very raw bash script to get random patterns of 8 chars using 9 digits (0, 1, 2, 3, 4, 5, 6, 7, ~)
 
-There is no midi channel subdivision at the moment, so its made basically for a single BRC2000 preset.
+There is no midi channel subdivision at the moment, so its made basically for a single midi chan BRC2000 preset.
 
 This setup is also suitable for any other device so its not strictly reserved to a BCR2000 user.
 
