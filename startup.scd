@@ -113,7 +113,7 @@ off = MIDIFunc.noteOff({ |val, num, chan, src|
 
 cc = MIDIFunc.cc({ |val, num, chan, src|
 	["CC-Num: " ++ num, "CC-Value:" ++ val].postln;
-    osc.sendMsg("/ctrl", num.asString, val);
+    osc.sendMsg("/ctrl", num.asString, val/127);
 });
 
 if (~stopMidiToOsc != nil, {
