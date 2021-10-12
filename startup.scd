@@ -12,7 +12,8 @@ var mutes, solos, muteAll, unmuteAll, unsoloAll, hush;
 var playbackControl, playbackState, playbackControl2;
 var osc;
 var osc1;
-var cc1 = 40;
+var cc1 = 40; // eval multi MIDI-CC
+var cc2 = 104; // eval single + move MIDI-CC
 
 s.reboot { // server options are only updated on reboot
     // configure the sound server: here you could add hardware specific options
@@ -56,19 +57,20 @@ s.reboot { // server options are only updated on reboot
 
 	(
 
+//MIDI CC MUTE
 
 mutes = Dictionary[
     65 -> 1,
     66 -> 2,
     67 -> 3,
-	68 -> 4,
+    68 -> 4,
     69 -> 5,
     70 -> 6,
     71 -> 7,
     72 -> 8
 ];
 
-// In this case, F4, G4 & A4 solo patterns d1, d2 & d3
+// MIDI CC SOLO
 solos = Dictionary[
     73 -> 1,
     74 -> 2,
@@ -80,20 +82,16 @@ solos = Dictionary[
     80 -> 8
 ];
 
-// This MIDI note triggers "muteAll"
-// In this case, it's set to C5
+// This MIDI CC triggers "muteAll"
 muteAll = 105;
 
-// This MIDI note triggers "unmuteAll"
-// In this case, it's set to D5
+// This MIDI CC triggers "unmuteAll"
 unmuteAll = 106;
 
-// This MIDI note triggers "unsoloAll"
-// In this case, it's unused
+// This MIDI CC triggers "unsoloAll"
 unsoloAll = 107;
 
-// This MIDI note triggers "hush"
-// In this case, it's unused
+// This MIDI CC triggers "hush"
 hush = 108;
 
 /* ------------------------------------------------------- */
@@ -206,7 +204,7 @@ playbackControl = MIDIFunc.cc({ |val, num, chan, src|
 
 				});
 
-	if (104 == num, {
+	if (cc2 == num, {
 					osc1.sendMsg("/atom/eval", "type", "line", "row", val, "column", 1, );
 
 				});
