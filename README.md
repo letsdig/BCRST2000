@@ -1,8 +1,5 @@
 # BCRST2000
 
----{At this moment 9/10/2021 note patterns have still to be added asap, so the track 7 and 8 just play a single note sample right now}---
-
-
 This is a setup for use the BCR2000 + Supercollider + Tidal Cycles as a mixer/looper/sampler/slicer/fast-navigation tool, the scripts can be also improved and it is a work in progress, so expect to find bugs or errors.
 
 It also contains a very raw bash script to get random patterns of 8 chars using 9 digits (0, 1, 2, 3, 4, 5, 6, 7, ~)
@@ -36,7 +33,6 @@ There is no midi channel subdivision at the moment, so its made basically for a 
 - fast change sample/loop by knob - 128 loops/samples per track - 8 bar loops slice as default but it can be changed in the code for long loops bar folders (also in the boot.tidal you will find the 3rd and 5th track with a 64 slice, in that case also the speed value in the bcr2000.tidal has to be changed accordingly) 
 - evaluate atom block code or single row and move in the editor by midi - play
 - hush - stop
-
 
 - Supercollider script contains MIDI code for: hush, mute, solo, editor evaluate and move, these controls refers to the basic Tidal Cycle Patterns: (d1, d2... and so on), and Atom osc control (evaluate, move) 
  
