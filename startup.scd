@@ -1,6 +1,8 @@
 /*
 This is an example startup file. You can load it from your startup file
 (to be found in Platform.userAppSupportDir +/+ "startup.scd")
+
+CHANGE MIDI CCs AS YOU NEED IN THE CODE
 */
 
 (
