@@ -6,6 +6,8 @@ It also contains a very raw bash script to get random patterns of 8 chars using 
 
 There is no midi channel subdivision at the moment, so its made basically for a single BRC2000 preset.
 
+This setup is also suitable for any other device so its not strictly reserved to a BCR2000 user.
+
 
 
 # {optional}
