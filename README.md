@@ -37,7 +37,7 @@ This setup is also suitable for any other device so its not strictly reserved to
 - evaluate atom block code or single row and move in the editor by midi - play
 - hush - stop
 
-- Supercollider script contains MIDI code for: hush, mute, solo, editor evaluate and move, these controls refers to the basic Tidal Cycle Patterns: (d1, d2... and so on), and Atom osc control (evaluate, move) 
+- Supercollider script contains MIDI code for: hush, mute, solo, editor evaluate and move, these controls refers to the basic Tidal Cycle Patterns: (d1, d2... and so on), and Atom osc control (evaluate, move). It also contains the code for a visual clock. 
  
 - Tidal Cycles scripts contains MIDI code for: speed, change sample/loop, change midi/note pattern, also here you can add more and more controls easily  
 
