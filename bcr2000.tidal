@@ -69,19 +69,19 @@ do
       # gain 1
     ]
   d7 $ stack [
-      n "" #
+      n "c a f e" #
       s (select "^23" banklist)
       # n (range 0 127 (cN 1 "7"))
-      # speed (cF 1 "87")
-      # unit "c"
+      -- # speed (cF 1 "87")
+      -- # unit "c"
       # gain 1
     ]
   d8 $ stack [
-      n "{<0 3 5 8> <0 7 8 6>}/4" #
+      n "c a f e" #
       s (select "^24" banklist)
       # n (range 0 127 (cN 1 "8"))
-      # speed (cF 1 "88")
-      # unit "c"
+      -- # speed (cF 1 "88")
+      -- # unit "c"
       # gain 1
     ]
   print "its on - control from bcr2000"
