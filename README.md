@@ -8,7 +8,7 @@ There is no midi channel subdivision at the moment, so its made basically for a 
 
 This setup is also suitable for any other device so its not strictly reserved to a BCR2000 user.
 
-
+This setup is useful if one have a lot of folders full of loops or samples (128 banks per track and max 128 sounds per bank). If you folder exceed 128 samples/loops in one folder just split it in two different folders.
 
 # {optional}
 - Linux is the default system used in this project
